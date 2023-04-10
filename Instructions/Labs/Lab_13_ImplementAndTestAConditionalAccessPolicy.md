@@ -43,7 +43,7 @@ Azure Active Directory conditional access is an advanced feature of Azure AD tha
 
 4. On the Security page, in the left navigation, select **Conditional access**.
 
-5. On the top menu, select **+ New policy** from the drop-down select **Create a new policy**.
+5. On the Overview (Preview) page, select **+ Create new policy**.
 
    ![Screen image displaying the Conditional Access page with New policy highlighted](./media/lp2-mod1-conditional-access-new-policy.png)
 
@@ -109,6 +109,8 @@ You should test your conditional access policies to ensure they working as expec
 
 1. On the Security page, in the left navigation, select **Conditional access**.
 
+1. Select **Policies** in the navigation pane.
+
 1. Select **What if**.
 
 1. Under **User or Workload identity**, select **No user or service principal selected**.
@@ -117,7 +119,7 @@ You should test your conditional access policies to ensure they working as expec
 
 1. Under **Cloud apps, actions, or authentication context**, select **Yammer**. 
 
-1. Select **What if**. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
+1. Scroll down and select **What if**. You will be provided with a report at the bottom of the tile for **Policies that will apply** and **Policies that will not apply**.
 
 This allows you to test the policies and their affectiveness before enabling the policies.
 
@@ -135,7 +137,7 @@ As part of your company's larger security configuration, you must test a conditi
 
 4. On the Security page, in the left navigation, select **Conditional access**.
 
-5. On the top menu, select **+ New policy** from the drop-down select **Create a new policy**.
+5. On the Overview (Preview) page, select **+ Create new policy**.
 
    ![Screen image displaying the Conditional Access page with New policy highlighted](./media/lp2-mod1-conditional-access-new-policy.png)
 
@@ -161,7 +163,7 @@ As part of your company's larger security configuration, you must test a conditi
 
 16. Select the units menu, select **Days**, and then select **Select**.
 
-17. Under **Enable policy**, select **Report-only**, and then select **Create**.
+17. Under **Enable Policy**, select **Report-only**, and then select **Create**.
 
    ![Screen image displaying a new conditional access policy with policy settings highlighted](./media/lp2-mod3-create-session-conditional-access-policy.png)
 
