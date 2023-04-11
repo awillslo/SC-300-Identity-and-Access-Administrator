@@ -34,21 +34,21 @@ Microsoft Defender for Cloud Apps  allows us to create additional Conditional Ac
 
 3. Under **Protect**, select **Conditional Access**.
 
-4. Select **+ New policy** drop-down and select **Create new policy**.
+4. Select **+ Create new policy**.
 
 5. Enter a policy name, such as **Monitor Pradeep using Forms**.
 
-6. Under **Users or workload identities**, select **Specific users included**, select **Select users and groups** and mark the **Users and groups**.
+6. Under **Assignments**, select **0 users and groups**, select **Select users and groups** and mark the **Users and groups** checkbox.
 
-7. Choose the **Pradeep Gupta** account for the lab tenant and select **Select**.
+7. Choose the **Pradeep Gupta** account for the lab tenant and click **Select**.
 
 8. Under **Cloud apps or actions**, select **No cloud apps, actions, or authentication contexts selected**.
 
-9. Select **Select apps**, and then choose **Microsoft Forms**, and select **Select**. 
+9. Select **Select apps**, under **Select**, click **None** and then choose **Microsoft Forms**, and click **Select**. 
 
-10. Under **Access controls**, select **Session** and ** 0 controls selected**.
+10. Under **Access controls**, under **Session** click **0 controls selected**.
 
-11. Select the **Use Conditional Access App Control** box, leave the default of **Monitor only**, and select **Select**.
+11. Select the **Use Conditional Access App Control** box, choose **Monitor only** from the dropdown list, and click **Select**.
 
 12. Under **Enable policy**, select **On**, and select **Create**.
 
@@ -72,11 +72,9 @@ Registering your application establishes a trust relationship between your app a
 
 1. Sign in to [https://security.microsoft.com](https://security.microsoft.com) using a Global Administrator account.
 
-1. On the left menu, scroll to the bottom and select **More resources**.
+1. On the left menu, expand **Cloud Apps**.
 
-1. In the **More resources** window, locate and select **Open** under **Microsoft Defender for Cloud Apps**.  This will take you to the **Microsoft Defender for Cloud Apps** portal within the Microsoft 365 account.
-
-1. In the **Microsoft Defender for Cloud Apps** portal menu, select the drop-down arrow for **Control** and select **Policies**.
+1. Expand **Policies and select **Policy Management**
 
 1. Select **+ Create policy**. Select **Access policy**.
 
@@ -90,7 +88,7 @@ Registering your application establishes a trust relationship between your app a
 
 1. Leave **Actions** as **Test**.
 
-1. Under **Alerts**, leave **Create an alert...** checked and select **Sent alert as email**.
+1. Under **Alerts**, leave **Create an alert...** checked and select **Send alert as email**.
 
 1. Enter the lab admin email address and select **Enter** on your keyboard.
 
@@ -110,8 +108,9 @@ Registering your application establishes a trust relationship between your app a
 
 #### Task 3 - Review the Activity in Defender for Cloud Apps
 
-1. Return to the browswer running Defender for Cloud Apps.
+1. Return to the browswer running Microsoft 365 Defender.
 2. Refresh the browser to ensure the most recent data is downloaded.
-3. From the **Investigate** menu, select **Activity log**.
+3. Under the **Cloud Apps** category menu, select **Activity log**.
 4. Using the **App: filter** pick **Microsoft Forms** from the list.
 5. Notice the sign-on records for Pradeep.
+    -**Note:** Due to the time Policies take to go into effect, you may not see any sign-on records for Pradeep. 
